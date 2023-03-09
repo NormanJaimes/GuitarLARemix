@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="contenedor contenido">
         <Navegacion />
         <p className="copyright">
-          Todos los derechos reservados {new Date().getFullYear()}
+          <a href="http://thenormanjames.com/"> The Norman James </a>
+          {new Date().getFullYear()}
         </p>
       </div>
     </footer>
